@@ -1,6 +1,6 @@
 {% set name = "ispyb" %}
-{% set version = "5.8.1" %}
-{% set sha256 = "243c646a5fbaf863db35df0fb47bbcb5e77a6c47e2a111eaea7329b28f1ce99d" %}
+{% set version = "5.9.0" %}
+{% set sha256 = "4e6e4fa2199f77f6c58e400171bc5233610473667af25ec2806f855f982c1f16" %}
 
 package:
   name: {{ name|lower }}
