@@ -1,6 +1,6 @@
 {% set name = "ispyb" %}
-{% set version = "5.9.0" %}
-{% set sha256 = "4e6e4fa2199f77f6c58e400171bc5233610473667af25ec2806f855f982c1f16" %}
+{% set version = "5.9.1" %}
+{% set sha256 = "b9bb3d77be6be8225a472cf0ad152b97210ae8994439e0217a87dafd3133b9b5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
